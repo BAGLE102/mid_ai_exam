@@ -1,5 +1,8 @@
 # 使用 Google Colab 平台進行視網膜圖像分類模型訓練
 
+![image](https://github.com/user-attachments/assets/529a530d-41c9-4a60-8e2f-e87f29743945)
+
+
 本專案使用 Kaggle 數據集進行視網膜圖像分類，利用深度學習模型來自動分類視網膜影像，分類的對象涵蓋四種視網膜疾病類型。
 
 ## 數據集介紹
@@ -17,3 +20,6 @@
 ```python
 from google.colab import drive
 drive.mount('/content/gdrive/')
+
+###2. 下載數據集
+在 Kaggle 中創建 API Token 並下載 kaggle.json 文件。將 kaggle.json 移至 .kaggle 目錄：
